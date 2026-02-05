@@ -16,8 +16,10 @@ Hardware:
 
 The camera + laser combo is "strapped" onto the servo mount using tape. Make sure the camera and the laser are aligned (can be tuned later when running the application as it shows the image center).
 
+--------------------------------------------------------------------------------------------------------
 
 Wiring: 
+
 +5VDC (PSU) -> +5V (red wires) on servos;
 
 GND (PSU) -> ESP32 GND, laser GND, servos GND (brown wires) ----- shared reference point;
@@ -30,6 +32,8 @@ a) PAN to ESP32 D18 pin;
 
 b) TILT to ESP D19 pin;
 
+--------------------------------------------------------------------------------------------------------
+
 REQUIREMENTS for ESP32 flashing:
 
 Application has been confirmed to work with ESP32 DEVKITV1 (ESP-WROOM-32).
@@ -40,6 +44,7 @@ Install ESP32Servo library.
 
 Flash the code.
 
+--------------------------------------------------------------------------------------------------------
 
 !!!!!!MUST INSTALL BEFORE RUNNING:
 
