@@ -2,6 +2,7 @@
 Table tennis ball tracker with Blackfly S GigE + ESP32 with servos
 
 Hardware:
+
 1x Blackfly S GigE camera (BFS-PGE-13Y3C-C) + lens - powered via PoE switch;
 
 1x ESP32 DEVKITV1;
@@ -49,6 +50,7 @@ Flash the code (root\esp\servo).
 !!!!!!MUST INSTALL BEFORE RUNNING:
 
 ! Microsoft Build Tools (MSVC)
+
 check:
 - desktop dev with c++
 - msvc v14x toolset
@@ -76,7 +78,9 @@ Change the paths in compile_commands.json (found in root\build) and in CMakeList
 Press CTRL+SHIFT+P and select CMake: Configure -> MSVC, then CMake: Build.
 
 To run the application, CMake: Run without Debugging OR run blackfly.exe (root\build)
+
 ! ESP32 MUST be connected to a COM port for the application to run.
+
 ! To set the ESP32 serial port, simply change it in "int main()" (first line).
 
 Detection model comes pre-trained with yolov8n, exported in ONNX format (best.onnx). 
