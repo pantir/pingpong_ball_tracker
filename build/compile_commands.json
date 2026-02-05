@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/alexb/Desktop/TRACKER/build",
+  "command": "C:\\PROGRA~2\\MICROS~3\\18\\BUILDT~1\\VC\\Tools\\MSVC\\1450~1.357\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -D_MBCS -I\"C:\\Program Files\\Teledyne\\Spinnaker\\include\" -external:IC:\\opencv\\opencv\\build\\include -external:W0 /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od -std:c++17 -MDd -RTC1 -Zi /FoCMakeFiles\\blackfly.dir\\src\\main.cpp.obj /FdCMakeFiles\\blackfly.dir\\ /FS -c C:\\Users\\alexb\\Desktop\\TRACKER\\src\\main.cpp",
+  "file": "C:/Users/alexb/Desktop/TRACKER/src/main.cpp",
+  "output": "C:/Users/alexb/Desktop/TRACKER/build/CMakeFiles/blackfly.dir/src/main.cpp.obj"
+}
+]
