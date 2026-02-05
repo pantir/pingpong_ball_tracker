@@ -72,7 +72,7 @@ Optional: Ninja
 
 Add ..\Ninja to the PATH environment variable (eg. C:\Program Files\Ninja)
 
-Change the paths in compile_commands.json (found in root\build) and in CMakeLists.txt (found in root) to your local paths.
+Change the paths in compile_commands.json (found in root\build), CMakeLists.txt (found in root) and *const string onnxPath = "../models/best.onnx"* (found in \src\main.cpp, line 417) to your local paths.
 
 
 Press CTRL+SHIFT+P and select CMake: Configure -> MSVC, then CMake: Build.
