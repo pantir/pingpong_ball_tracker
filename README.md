@@ -42,7 +42,7 @@ Install Arduino IDE.
 
 Install ESP32Servo library.
 
-Flash the code.
+Flash the code (root\esp\servo).
 
 --------------------------------------------------------------------------------------------------------
 
