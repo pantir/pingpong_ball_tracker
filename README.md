@@ -55,15 +55,19 @@ check:
 - windows 10/11 SDK
 
 ! Spinnaker SDK
+
 Add ..\Teledyne\Spinnaker\bin64\vs2015 to the PATH environment variable (eg. C:\Program Files\Teledyne\Spinnaker\bin64\vs2015)
 
 ! CMake
+
 Add ..\CMake\bin to the PATH environment variable (eg. C:\Program Files\CMake\bin)
 
 ! OpenCV
+
 Add ..\opencv\build\x64\vc16\bin to the PATH environment variable (eg. C:\opencv\build\x64\vc16\bin)
 
 Optional: Ninja
+
 Add ..\Ninja to the PATH environment variable (eg. C:\Program Files\Ninja)
 
 Change the paths in compile_commands.json (found in root\build) to your local paths.
