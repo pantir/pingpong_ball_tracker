@@ -3,16 +3,14 @@ project(blackfly_tracker)
 
 set(CMAKE_CXX_STANDARD 17)
 
-# -----------------------
 # Spinnaker
-# -----------------------
 set(SPINNAKER_INCLUDE_DIR "C:/Program Files/Teledyne/Spinnaker/include")
 set(SPINNAKER_LIB_DIR "C:/Program Files/Teledyne/Spinnaker/lib64/vs2015")
 
 include_directories(${SPINNAKER_INCLUDE_DIR})
 link_directories(${SPINNAKER_LIB_DIR})
 
-# Core Spinnaker library (required)
+# Core Spinnaker library
 set(SPINNAKER_LIB Spinnaker_v140)
 
 # OpenCV
